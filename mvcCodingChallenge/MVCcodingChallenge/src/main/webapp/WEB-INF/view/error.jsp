@@ -1,0 +1,34 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   
+<style>
+* {
+  text-align: center;
+  color: blue;
+  background-color: pink;
+}
+h1.center {
+  text-align: center;
+  color: red;
+}
+</style>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1 class="center">ApplicationName: ${ApplicationName}</h1>
+
+<h1 class="center">Status: ${Status}</h1>
+
+<h1 class="center">Error Message ${ErrorMessage}</h1>
+
+
+<a href="tohomeback"><button class="btn btn-info">HOME</button></a>
+</body>
+</html>
